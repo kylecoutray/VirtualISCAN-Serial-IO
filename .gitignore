@@ -1,0 +1,5 @@
+Psychtoolbox-3/
+*.log
+*.bak
+.env
+
