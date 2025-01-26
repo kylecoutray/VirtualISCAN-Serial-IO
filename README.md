@@ -1,8 +1,8 @@
 The ISCAN RK-716 has three main methods of communication. TCP/IP, Serial IO, and Analog communication (According to the manual linked below). 
-This project aims to simulate the Serial IO datastream from the Eye tracker sent over a COM port. 
+This project aims to simulate the Serial IO datastream from the Eye tracker sent over a COM port, then manipulate a Unity game scene from the data received. 
 Artifical data is generated, sent to a matlab script, then sent to unity to manipulate the position of a square game object. 
 Once connection is terminated (Ctrl + C while each script is running) a .txt file is created with a mock report of the session. 
-All header numbers are taken from make 60 of the manual and are in place only to simulate the expected output. 
+All header numbers are taken from page 60 of the manual and are in place only to simulate the expected output. 
 
 This implementation should only need small tweaks such as changing the COM port and all respective file locations to work.
 
